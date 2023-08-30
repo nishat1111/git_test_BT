@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "automation">
+
+<!--    <listeners>-->
+<!--        <listener class-name="listner"></listener>-->
+<!--    </listeners>-->
+
+    <test name = "automated tests">
+        <classes>
+            <class name = "hometest"></class>
+            <class name="googlehomeTest"></class>
+            <class name="alertTest"></class>
+        </classes>
+    </test>
+
+</suite>
